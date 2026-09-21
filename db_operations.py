@@ -2,15 +2,14 @@ import psycopg2
 
 DATABASE_NAME = "library_db"
 
-'''
-3 Operations:
-  Create the books table
-  Insert sample books
-  Display older books
-'''
-
 
 def database_operations():
+    '''
+      3 Operations:
+        Create the books table
+        Insert sample books
+        Display older books
+    '''
     connection = None
     cursor = None
 
@@ -42,7 +41,7 @@ def database_operations():
         if book_count == 0:
             sample_books = [
                 ("The Great Gatsby", "F. Scott Fitzgerald", 1925),
-                ("Project Hail Mary", "Andy Weir", 2021)
+                ("Project Hail Mary", "Andy Weir", 2021),
             ]
 
             # Run the INSERT statement once for each tuple
