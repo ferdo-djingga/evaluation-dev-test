@@ -1,0 +1,17 @@
+[project]
+name = "evaluation-dev-test"
+version = "0.1.0"
+description = "Junior Software Engineer Day 1 Assignment"
+authors = [
+    {name = "Fernando Djingga",email = "fernandodjingga21@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "requests (==2.31.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
