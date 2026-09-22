@@ -7,7 +7,7 @@ Junior Software Engineer Day 1 Assignment
 Install the Poetry dependencies:
 
 ```bash
-poetry install --no-root
+poetry install
 ```
 
 ## PostgreSQL Setup
